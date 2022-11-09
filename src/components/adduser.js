@@ -1,5 +1,4 @@
 import React,{ useState, useEffect } from 'react';
-import propTypes from 'prop-types'
 
 const Adduser = ({handleSubmitAdd, remove, btnText}) => {
     const [user, setUser] = useState(
