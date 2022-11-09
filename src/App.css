@@ -68,3 +68,7 @@
     grid-template-columns: auto auto auto;
   }
 }
+
+.userInput{
+  margin: 5px 5px;
+}
