@@ -32,7 +32,7 @@ const Adduser = ({handleSubmitAdd, remove, btnText}) => {
     return (
         <form onSubmit={handleSubmit}>
             <div className="field-group">
-                <label  htmlFor="username" >UserName:</label>
+                <label  htmlFor="username" >Username:</label>
                 <input className="userInput" id="username" placeholder='username' type="text" name="username" value={username} onChange={handleChange} required></input>
             </div>
             <div className="field-group">

@@ -104,7 +104,7 @@ const allUser = () =>{
    
   return (
     <div className="App">
-      <h1>The data management sytem</h1>
+      <h1>The data management</h1>
       {isLoading && <h2>Data is loading...</h2>}
       {error && <h1>{error}</h1>}
       {isUpdate ? <Adduser 
